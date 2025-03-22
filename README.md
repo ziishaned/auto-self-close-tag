@@ -22,7 +22,7 @@ This extension provides two key features to make working with self-closing HTML 
    When you add a slash after the "p" to make it <p/, the extension automatically detects and removes the </p> closing tag:
 
    ```html
-   <p />
+   <p/>
    ```
 
 2. Auto-Complete Self-Closing Tag Syntax
@@ -38,7 +38,7 @@ This extension provides two key features to make working with self-closing HTML 
    When you type a slash to make it <img /, the extension automatically adds the closing angle bracket:
 
    ```html
-   <img />
+   <img/>
    ```
 
 ### Supported Languages
