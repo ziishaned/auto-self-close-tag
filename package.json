@@ -1,7 +1,7 @@
 {
   "name": "html-self-closing-tag-helper",
-  "displayName": "Auto Close HTML Tag",
-  "description": "Automatically adds closing tags for HTML elements",
+  "displayName": "HTML Self-Closing Tag Helper",
+  "description": "Automatically adds closing tags for HTML elements and removes closing tags when converting to self-closing",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.98.0"
