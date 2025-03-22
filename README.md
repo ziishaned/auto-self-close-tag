@@ -35,7 +35,7 @@ This extension provides two key features to make working with self-closing HTML 
    When you type a slash to make it <img /, the extension automatically adds the closing angle bracket:
 
    ```html
-   <img />
+   <img/>
    ```
 
 ### Supported Languages
