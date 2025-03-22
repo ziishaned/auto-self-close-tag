@@ -3,10 +3,40 @@
   "displayName": "HTML Self-Closing Tag Helper",
   "description": "Automatically adds closing tags for HTML elements and removes closing tags when converting to self-closing",
   "version": "0.0.1",
+  "preview": true,
+  "publisher": "ziishaned",
+  "license": "MIT",
+  "icon": "images/logo.png",
+  "author": {
+    "name": "Zeeshan Ahmad",
+    "email": "ziishaned@gmail.com",
+    "url": "https://github.com/ziishaned"
+  },
+  "homepage": "https://github.com/ziishaned/html-self-closing-tag-helper",
+  "bugs": {
+    "email": "ziishaned@gmail.com",
+    "url": "https://github.com/ziishaned/html-self-closing-tag-helper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziishaned/html-self-closing-tag-helper"
+  },
+  "keywords": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "typescript",
+    "jsx",
+    "tsx",
+    "self-closing",
+    "tag"
+  ],
   "engines": {
     "vscode": "^1.98.0"
   },
   "categories": [
+    "Programming Languages",
     "Other"
   ],
   "activationEvents": [
