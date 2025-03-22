@@ -1,3 +1,7 @@
+## 0.0.4
+
+- Rename extension to Auto Self Close Tag
+
 ## 0.0.3
 
 - Update demos

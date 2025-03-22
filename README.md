@@ -1,9 +1,11 @@
-## HTML Self-Closing Tag Helper
+## Auto Self Close Tag
 
 <p align="center">
   <img src="assets/logo.png" alt="Logo" width="227px" height="178px">
 </p>
-<p align="center">A VSCode extension that simplifies working with HTML self-closing tags.</p>
+<p align="center">
+A VSCode extension that simplifies working with HTML self-closing tags and removes closing tags when converting to self-closing.
+</p>
 
 ### Demo
 
@@ -60,7 +62,7 @@ This extension provides two key features to make working with self-closing HTML 
 
 1. Open VSCode
 2. Go to Extensions (Ctrl+Shift+X)
-3. Search for "HTML Self-Closing Tag Helper"
+3. Search for "Auto Self Close Tag"
 4. Click Install
 
 ### Usage
