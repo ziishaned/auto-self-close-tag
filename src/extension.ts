@@ -72,9 +72,12 @@ export function activate(context: ExtensionContext) {
                   editor.document.positionAt(closeTagStartOffset);
                 const endPos = editor.document.positionAt(closeTagEndOffset);
 
-                editor.edit((editBuilder) => {
-                  editBuilder.delete(new Range(startPos, endPos));
-                });
+                editor.edit(
+                  (editBuilder) => {
+                    editBuilder.delete(new Range(startPos, endPos));
+                  },
+                  { undoStopAfter: false, undoStopBefore: false }
+                );
               }
             }
           }
@@ -90,9 +93,12 @@ export function activate(context: ExtensionContext) {
             );
 
             editor
-              .edit((editBuilder) => {
-                editBuilder.insert(insertPosition, ">");
-              })
+              .edit(
+                (editBuilder) => {
+                  editBuilder.insert(insertPosition, ">");
+                },
+                { undoStopAfter: false, undoStopBefore: false }
+              )
               .then(() => {
                 const newPosition = new Position(
                   insertPosition.line,

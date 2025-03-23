@@ -1,3 +1,7 @@
+### 0.0.75
+
+- Handle undo key after self closing tag
+
 ### 0.0.74
 
 - Change theme inside package.json
