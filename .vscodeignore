@@ -7,3 +7,4 @@ src/**
 **/*.map
 **/*.ts
 **/.vscode-test.*
+assets/**

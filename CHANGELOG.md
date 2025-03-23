@@ -1,3 +1,7 @@
+### 0.0.6
+
+- Minimize extension size
+
 ## 0.0.5
 
 - Fix regex to see if the tag has children
