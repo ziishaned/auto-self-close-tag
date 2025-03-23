@@ -1,3 +1,7 @@
+### 0.0.71
+
+- Update logo
+
 ### 0.0.7
 
 - Update logo
