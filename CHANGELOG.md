@@ -1,3 +1,7 @@
+### 0.0.72
+
+- Make the extension compatible with Cursor
+
 ### 0.0.71
 
 - Update logo

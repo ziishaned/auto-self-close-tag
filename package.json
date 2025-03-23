@@ -2,7 +2,7 @@
   "name": "auto-self-close-tag",
   "displayName": "Auto Self Close Tag",
   "description": "Automatically adds closing tags for HTML elements and removes closing tags when converting to self-closing",
-  "version": "0.0.71",
+  "version": "0.0.72",
   "preview": true,
   "publisher": "ziishaned",
   "license": "MIT",
@@ -33,7 +33,7 @@
     "tag"
   ],
   "engines": {
-    "vscode": "^1.98.0"
+    "vscode": "^1.65.0"
   },
   "categories": [
     "Programming Languages",
