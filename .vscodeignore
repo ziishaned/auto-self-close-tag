@@ -8,3 +8,4 @@ src/**
 **/*.ts
 **/.vscode-test.*
 assets/**
+!assets/logo.png
