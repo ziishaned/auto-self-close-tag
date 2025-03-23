@@ -1,3 +1,7 @@
+### 0.0.7
+
+- Update logo
+
 ### 0.0.6
 
 - Minimize extension size
