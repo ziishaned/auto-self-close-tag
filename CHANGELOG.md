@@ -1,3 +1,7 @@
+### 0.0.74
+
+- Change theme inside package.json
+
 ### 0.0.73
 
 - Make the extension compatible with Cursor

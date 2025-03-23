@@ -2,13 +2,13 @@
   "name": "auto-self-close-tag",
   "displayName": "Auto Self Close Tag",
   "description": "Automatically adds closing tags for HTML elements and removes closing tags when converting to self-closing",
-  "version": "0.0.73",
+  "version": "0.0.74",
   "preview": true,
   "publisher": "ziishaned",
   "license": "MIT",
   "icon": "assets/logo.png",
   "galleryBanner": {
-    "theme": "light",
+    "theme": "dark",
     "color": "#052529"
   },
   "author": {
