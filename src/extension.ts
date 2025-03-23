@@ -47,11 +47,26 @@ export function activate(context: ExtensionContext) {
             if (tagMatch) {
               const tagName = tagMatch[1];
               const remainingText = fullText.substring(cursorOffset);
+
               const closeTagRegex = new RegExp(`<\\/${tagName}>`, "i");
+              const contentBetweenRegex = new RegExp(
+                `<${tagName}[^>]*>(.*?)<\\/${tagName}>`,
+                "is"
+              );
+
               const match = remainingText.match(closeTagRegex);
 
               if (match && match.index !== undefined) {
                 const closeTagStartOffset = cursorOffset + match.index;
+
+                const contentMatch = fullText
+                  .substring(cursorOffset - tagMatch[0].length)
+                  .match(contentBetweenRegex);
+
+                if (contentMatch && contentMatch[1].trim() !== "") {
+                  return;
+                }
+
                 const closeTagEndOffset = closeTagStartOffset + match[0].length;
                 const startPos =
                   editor.document.positionAt(closeTagStartOffset);
