@@ -1,3 +1,7 @@
+### 0.0.76
+
+- fix: tags with dashes are not working
+
 ### 0.0.75
 
 - Handle undo key after self closing tag
