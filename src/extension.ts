@@ -35,13 +35,13 @@ export function activate(context: ExtensionContext) {
             charBeforeSlash === "<" ||
             line
               .substring(0, position.character)
-              .match(/<[a-zA-Z][a-zA-Z0-9\-]*(\s+[^>]*)?$/) // Modified regex here
+              .match(/<[a-zA-Z][a-zA-Z0-9\-]*(\s+[^>]*)?$/)
           ) {
             const fullText = editor.document.getText();
             const cursorOffset = editor.document.offsetAt(position);
             const textBeforeCursor = fullText.substring(0, cursorOffset);
             const tagMatch = textBeforeCursor.match(
-              /<([a-zA-Z][a-zA-Z0-9\-]*)(?:\s+[^>]*)?$/ // Modified regex here
+              /<([a-zA-Z][a-zA-Z0-9\-]*)(?:\s+[^>]*)?$/
             );
 
             if (tagMatch) {
@@ -83,7 +83,7 @@ export function activate(context: ExtensionContext) {
           }
 
           const textBeforeSlash = line.substring(0, position.character);
-          const tagPattern = /<([a-zA-Z][a-zA-Z0-9\-]*)(\s+[^>]*)?$/; // Modified regex here
+          const tagPattern = /<([a-zA-Z][a-zA-Z0-9\-]*)(\s+[^>]*)?$/;
           const match = textBeforeSlash.match(tagPattern);
 
           if (match) {
